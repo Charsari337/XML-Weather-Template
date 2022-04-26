@@ -19,13 +19,41 @@ namespace XMLWeather
 
         public void displayForecast()
         {
-            //date1.Text = Form1.days[1].date;
-            //min1.Text = Form1.days[1].tempLow;
-            //max1.Text = Form1.days[1].tempHigh;
+            date1Label.Text = Form1.days[1].date;
+            date1outLabel.Text = "Low\n";
+            date1outLabel.Text += Form1.days[1].tempLow;
+            date1outLabel.Text += "\n\nHigh\n";
+            date1outLabel.Text += Form1.days[1].tempHigh;
 
-            //date2.Text = Form1.days[2].date;
-            //min2.Text = Form1.days[2].tempLow;
-            //max2.Text = Form1.days[2].tempHigh;
+            date2Label.Text = Form1.days[2].date;
+            date2outLabel.Text = "Low\n";
+            date2outLabel.Text += Form1.days[2].tempLow;
+            date2outLabel.Text += "\n\nHigh\n";
+            date2outLabel.Text += Form1.days[2].tempHigh;
+
+            date3Label.Text = Form1.days[3].date;
+            date3outLabel.Text = "Low\n";
+            date3outLabel.Text += Form1.days[3].tempLow;
+            date3outLabel.Text += "\n\nHigh\n";
+            date3outLabel.Text += Form1.days[3].tempHigh;
+
+            date4Label.Text = Form1.days[4].date;
+            date4outLabel.Text = "Low\n";
+            date4outLabel.Text += Form1.days[4].tempLow;
+            date4outLabel.Text += "\n\nHigh\n";
+            date4outLabel.Text += Form1.days[4].tempHigh;
+
+            date5Label.Text = Form1.days[5].date;
+            date5outLabel.Text = "Low\n";
+            date5outLabel.Text += Form1.days[5].tempLow;
+            date5outLabel.Text += "\n\nHigh\n";
+            date5outLabel.Text += Form1.days[5].tempHigh;
+
+            date6Label.Text = Form1.days[6].date;
+            date6outLabel.Text = "Low\n";
+            date6outLabel.Text += Form1.days[6].tempLow;
+            date6outLabel.Text += "\n\nHigh\n";
+            date6outLabel.Text += Form1.days[6].tempHigh;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -35,6 +63,11 @@ namespace XMLWeather
 
             CurrentScreen cs = new CurrentScreen();
             f.Controls.Add(cs);
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

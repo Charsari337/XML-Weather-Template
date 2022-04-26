@@ -26,10 +26,20 @@ namespace XMLWeather
             tempLabel.Text += Form1.days[0].currentTemp;
             tempLabel.Text += "°";
 
-            minLabel.Text = Form1.days[0].tempLow;
-            maxLabel.Text = Form1.days[0].tempHigh;
+            minLabel.Text = "Low of:\n";
+            minLabel.Text += Form1.days[0].tempLow;
+            minLabel.Text += "°";
+
+            maxLabel.Text = "High of:\n";
+            maxLabel.Text += Form1.days[0].tempHigh;
+            maxLabel.Text += "°";
+
             conditionLabel.Text = Form1.days[0].condition;
-            dateLabel.Text = Form1.days[0].date;
+
+            dateLabel.Text = "Date:\n";
+            dateLabel.Text += Form1.days[0].date;
+
+            pictureBox1.Image = Properties.Resources.clear;
         }
 
         private void forecastLabel_Click(object sender, EventArgs e)

@@ -34,7 +34,6 @@
             this.conditionLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cityLabel = new System.Windows.Forms.Label();
-            this.currentTempLabel = new System.Windows.Forms.Label();
             this.dateLabel = new System.Windows.Forms.Label();
             this.minLabel = new System.Windows.Forms.Label();
             this.maxLabel = new System.Windows.Forms.Label();
@@ -81,9 +80,9 @@
             this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
             this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionLabel.ForeColor = System.Drawing.Color.White;
-            this.conditionLabel.Location = new System.Drawing.Point(279, 286);
+            this.conditionLabel.Location = new System.Drawing.Point(239, 286);
             this.conditionLabel.Name = "conditionLabel";
-            this.conditionLabel.Size = new System.Drawing.Size(183, 28);
+            this.conditionLabel.Size = new System.Drawing.Size(269, 28);
             this.conditionLabel.TabIndex = 43;
             this.conditionLabel.Text = "conditionLabel";
             this.conditionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -106,17 +105,7 @@
             this.cityLabel.Size = new System.Drawing.Size(214, 130);
             this.cityLabel.TabIndex = 45;
             this.cityLabel.Text = "cityLabel";
-            // 
-            // currentTempLabel
-            // 
-            this.currentTempLabel.BackColor = System.Drawing.Color.Transparent;
-            this.currentTempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentTempLabel.ForeColor = System.Drawing.Color.White;
-            this.currentTempLabel.Location = new System.Drawing.Point(270, 392);
-            this.currentTempLabel.Name = "currentTempLabel";
-            this.currentTempLabel.Size = new System.Drawing.Size(192, 28);
-            this.currentTempLabel.TabIndex = 46;
-            this.currentTempLabel.Text = "currentTempLabel";
+            this.cityLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // dateLabel
             // 
@@ -128,6 +117,7 @@
             this.dateLabel.Size = new System.Drawing.Size(212, 121);
             this.dateLabel.TabIndex = 47;
             this.dateLabel.Text = "dateLabel";
+            this.dateLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // minLabel
             // 
@@ -139,6 +129,7 @@
             this.minLabel.Size = new System.Drawing.Size(233, 121);
             this.minLabel.TabIndex = 48;
             this.minLabel.Text = "minLabel";
+            this.minLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // maxLabel
             // 
@@ -150,28 +141,29 @@
             this.maxLabel.Size = new System.Drawing.Size(233, 130);
             this.maxLabel.TabIndex = 49;
             this.maxLabel.Text = "maxLabel";
+            this.maxLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tempLabel
             // 
             this.tempLabel.BackColor = System.Drawing.Color.Transparent;
             this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(264, 392);
+            this.tempLabel.Location = new System.Drawing.Point(262, 392);
             this.tempLabel.Name = "tempLabel";
             this.tempLabel.Size = new System.Drawing.Size(222, 108);
             this.tempLabel.TabIndex = 46;
             this.tempLabel.Text = "tempLabel";
+            this.tempLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Wheat;
+            this.BackColor = System.Drawing.Color.Transparent;
             this.Controls.Add(this.maxLabel);
             this.Controls.Add(this.minLabel);
             this.Controls.Add(this.dateLabel);
             this.Controls.Add(this.tempLabel);
-            this.Controls.Add(this.currentTempLabel);
             this.Controls.Add(this.cityLabel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.conditionLabel);
@@ -192,7 +184,6 @@
         private System.Windows.Forms.Label conditionLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label cityLabel;
-        private System.Windows.Forms.Label currentTempLabel;
         private System.Windows.Forms.Label dateLabel;
         private System.Windows.Forms.Label minLabel;
         private System.Windows.Forms.Label maxLabel;

@@ -47,19 +47,11 @@ namespace XMLWeather
                 newDay.condition = reader.GetAttribute("number");
                 newDay.condition = reader.GetAttribute("name");
 
-                reader.ReadToFollowing("precipitation");
-                newDay.currentTemp = reader.GetAttribute("probability");
-                newDay.currentTemp = reader.GetAttribute("value");
-                newDay.currentTemp = reader.GetAttribute("type");
-
                 reader.ReadToFollowing("temperature");
                 newDay.tempLow = Convert.ToDouble(reader.GetAttribute("min")).ToString("0");
                 newDay.tempHigh = Convert.ToDouble(reader.GetAttribute("max")).ToString("0");
 
                 //newDay.currentTemp = reader.GetAttribute("value");
-
-                reader.ReadToFollowing("humidity");
-                newDay.currentTemp = reader.GetAttribute("value");
 
                 //: if day object not null add to the days list
                 // != means not equal to
