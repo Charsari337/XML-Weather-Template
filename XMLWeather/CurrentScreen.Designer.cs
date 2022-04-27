@@ -89,9 +89,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(239, 25);
+            this.pictureBox1.Location = new System.Drawing.Point(248, 25);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(269, 258);
+            this.pictureBox1.Size = new System.Drawing.Size(260, 260);
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
@@ -100,7 +100,7 @@
             this.cityLabel.BackColor = System.Drawing.Color.Transparent;
             this.cityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityLabel.ForeColor = System.Drawing.Color.White;
-            this.cityLabel.Location = new System.Drawing.Point(19, 221);
+            this.cityLabel.Location = new System.Drawing.Point(19, 286);
             this.cityLabel.Name = "cityLabel";
             this.cityLabel.Size = new System.Drawing.Size(214, 130);
             this.cityLabel.TabIndex = 45;
@@ -136,7 +136,7 @@
             this.maxLabel.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(514, 221);
+            this.maxLabel.Location = new System.Drawing.Point(514, 286);
             this.maxLabel.Name = "maxLabel";
             this.maxLabel.Size = new System.Drawing.Size(233, 130);
             this.maxLabel.TabIndex = 49;
